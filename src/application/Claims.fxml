@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane prefHeight="296.0" prefWidth="295.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.ControllerClaimsScreen">
+   <center>
+      <Pane prefHeight="125.0" prefWidth="295.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label layoutX="39.0" layoutY="24.0" prefHeight="23.0" prefWidth="130" text="Agent name" />      
+            <ComboBox fx:id="agent" layoutX="170.0" layoutY="24.0" prefHeight="25.0" prefWidth="113.0" />
+            
+            <Label layoutX="39.0" layoutY="74.0" prefHeight="23.0" prefWidth="130" text="Customer name" />
+            <ComboBox fx:id="customerName" layoutX="170.0" layoutY="74.0" prefHeight="25.0" prefWidth="113.0" />
+            
+            <Label layoutX="39.0" layoutY="127.0" prefHeight="23.0" prefWidth="130" text="Insurance type" />
+            <ComboBox fx:id="insuranceType" layoutX="170.0" layoutY="127.0" prefHeight="25.0" prefWidth="113.0" />
+            
+            <Label layoutX="39.0" layoutY="179.0" prefHeight="23.0" prefWidth="130" text="Comments/Reason" />
+            <TextField fx:id="comments" layoutX="170.0" layoutY="179.0" prefHeight="25.0" prefWidth="113.0" />
+            
+         </children>
+      </Pane>
+   </center>
+   <top>
+      <Pane prefHeight="60.0" prefWidth="295.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label layoutX="39.0" layoutY="22.0" prefHeight="17.0" prefWidth="226.0" text="Hello agent, please insert claim details:" />
+         </children>
+      </Pane>
+   </top>
+   <bottom>
+      <Pane prefHeight="65.0" prefWidth="295.0" BorderPane.alignment="CENTER">
+         <children>
+            <Button fx:id="claimBtn" onAction = "#handleButtonClick" layoutX="228.0" layoutY="14.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="55.0" text="Claim" />
+            <Button fx:id="cancelBtn" onAction = "#handleButtonClick" layoutX="39.0" layoutY="14.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="55.0" text="Cancel" />
+         </children>
+      </Pane>
+   </bottom>
+</BorderPane>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane prefHeight="296.0" prefWidth="295.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.ControllerMainScreen">
+   <center>
+      <Pane prefHeight="125.0" prefWidth="295.0" BorderPane.alignment="CENTER">
+         <children>
+            <Button fx:id="salesBtn" layoutX="63.0" layoutY="37.0" mnemonicParsing="false" onAction = "#handleButtonClick" prefHeight="25.0" prefWidth="170.0" text="Sales" />
+            <Button fx:id="claimsBtn" layoutX="63.0" layoutY="103.0" mnemonicParsing="false" onAction = "#handleButtonClick" prefHeight="25.0" prefWidth="170.0" text="Claims" />
+         </children>
+      </Pane>
+   </center>
+   <top>
+      <Pane prefHeight="60.0" prefWidth="295.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label layoutX="41.0" layoutY="22.0" prefHeight="17.0" prefWidth="235.0" text="Hello user, please select an option:" />
+         </children>
+      </Pane>
+   </top>
+   <bottom>
+      <Pane prefHeight="65.0" prefWidth="295.0" BorderPane.alignment="CENTER">
+         <children>
+            <Button fx:id="exitBtn" layoutX="29.0" layoutY="14.0" mnemonicParsing="false" onAction = "#handleButtonClick" prefHeight="25.0" prefWidth="55.0" text="Exit" />
+         </children>
+      </Pane>
+   </bottom>
+</BorderPane>
