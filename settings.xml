@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<Settings>
+    
+	<Authors>
+        <Author>Tamir Zamoshinztki</Author>
+        <Author>Elia Amar</Author>
+    </Authors>
+    
+	<Types>
+        <Type>Car</Type>
+        <Type>Appartment</Type>
+        <Type>Life</Type>
+        <Type>Travel</Type>
+    </Types>
+	
+	<Agent_Names>
+	<Agent id = "1">Avi</Agent>
+	<Agent id = "2">Ben</Agent>
+	<Agent id = "3">Coral</Agent>
+	<Agent id = "4">David</Agent>
+	<Agent id = "5">Eva</Agent>
+    </Agent_Names>
+
+</Settings>

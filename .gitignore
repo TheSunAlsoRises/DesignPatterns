@@ -1,0 +1,9 @@
+#DesignPatterns project: ignore output file. Because it's huge. really huge.
+Lego_Output.txt
+
+.git/
+.settings/
+bin/
+.classpath
+.project
+build.fxbuild

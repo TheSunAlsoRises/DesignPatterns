@@ -29,7 +29,7 @@
    <top>
       <Pane prefHeight="60.0" prefWidth="295.0" BorderPane.alignment="CENTER">
          <children>
-            <Label layoutX="39.0" layoutY="22.0" prefHeight="17.0" prefWidth="226.0" text="Hello agent, please insert sale details:" />
+            <Label layoutX="39.0" layoutY="22.0" prefHeight="17.0" prefWidth="226.0" text="Please insert sale details:" />
          </children>
       </Pane>
    </top>

@@ -17,7 +17,7 @@
    <top>
       <Pane prefHeight="60.0" prefWidth="295.0" BorderPane.alignment="CENTER">
          <children>
-            <Label layoutX="41.0" layoutY="22.0" prefHeight="17.0" prefWidth="235.0" text="Hello user, please select an option:" />
+            <Label layoutX="41.0" layoutY="22.0" prefHeight="17.0" prefWidth="235.0" text="Hello agent, please select an option:" />
          </children>
       </Pane>
    </top>

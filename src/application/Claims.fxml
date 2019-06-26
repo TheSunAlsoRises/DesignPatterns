@@ -18,7 +18,7 @@
             <Label layoutX="39.0" layoutY="127.0" prefHeight="23.0" prefWidth="130" text="Insurance type" />
             <ComboBox fx:id="insuranceType" layoutX="170.0" layoutY="127.0" prefHeight="25.0" prefWidth="113.0" />
             
-            <Label layoutX="39.0" layoutY="179.0" prefHeight="23.0" prefWidth="130" text="Comments/Reason" />
+            <Label layoutX="39.0" layoutY="179.0" prefHeight="23.0" prefWidth="130" text="Comments / Reason" />
             <TextField fx:id="comments" layoutX="170.0" layoutY="179.0" prefHeight="25.0" prefWidth="113.0" />
             
          </children>
@@ -27,7 +27,7 @@
    <top>
       <Pane prefHeight="60.0" prefWidth="295.0" BorderPane.alignment="CENTER">
          <children>
-            <Label layoutX="39.0" layoutY="22.0" prefHeight="17.0" prefWidth="226.0" text="Hello agent, please insert claim details:" />
+            <Label layoutX="39.0" layoutY="22.0" prefHeight="17.0" prefWidth="226.0" text="Please insert claim details:" />
          </children>
       </Pane>
    </top>
