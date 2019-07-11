@@ -1,4 +1,16 @@
 Sale:
-Agent: Avi		Insurance type: Travel		Due date: 1/1/20		Customer first name: Elia		Customer last name: Zamoshinsky
+Agent: Avi		Insurance type: Car		Due date: 1		Customer first name: 1		Customer last name: 1
+Sale:
+Agent: Avi		Insurance type: Car		Due date: 1		Customer first name: 1		Customer last name: 1
+Sale:
+Agent: Avi		Insurance type: Appartment		Due date: 523		Customer first name: 5		Customer last name: 235
+Sale:
+Agent: David		Insurance type: Appartment		Due date: 2353		Customer first name: t		Customer last name: et
+Sale:
+Agent: Ben		Insurance type: Appartment		Due date: 13		Customer first name: 123		Customer last name: 13
+Sale:
+Agent: Coral		Insurance type: Appartment		Due date: fas		Customer first name: fasf		Customer last name: saf
 Claim:
-Agent: Avi		Customer name: Elia Zamoshinsky		Insurance type: Travel		Comments: Car crash
+Agent: Avi		Customer name: 1 1		Insurance type: Car		Comments: 
+Sale:
+Agent: Avi		Insurance type: Travel		Due date: 1/1/20		Customer first name: Elia		Customer last name: Zamoshinsky
