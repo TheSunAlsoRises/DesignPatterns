@@ -1,9 +1,7 @@
-// 
-// Class 'ControllerClaimsScreen'
-// Design Pattern: MVC - "Model View-Controller" version
-// Role: Combined View-Controller class to view the main screen and control its background.
-//		 Does not interact with Model data
-//
+/* 
+ Class 'Main'
+ Initiates the main screen controls the stages switching
+*/
 
 package application;
 	

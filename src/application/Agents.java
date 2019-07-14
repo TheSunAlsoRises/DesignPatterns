@@ -1,10 +1,11 @@
-// 
-// Class 'Agents'
-// Design Patterns: Factory, MVC - "Model View-Controller" version
-// Roles: Implements 'SettingsData'
-// 		 One of two types of data that are read from the "settings.xml" file 
-//		(other is insurance types).
-//		 Also acts as Model class to hold data about the agents.
+/* 
+ Class 'Agents'
+ Design Patterns: Factory, MVC - "Model View-Controller" version
+ Role: Implements 'SettingsData'
+ 		 One of two types of data that are read from the "settings.xml" file 
+		(other is insurance types).
+		 Also acts as Model class to hold data about the agents.
+*/
 
 package application;
 

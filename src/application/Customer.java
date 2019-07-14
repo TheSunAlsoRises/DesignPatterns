@@ -1,10 +1,10 @@
-// 
-// Class 'Customer'
-// Design Pattern: MVC - "Model View-Controller" version
-// Role: Model class for customers data
-//		 Used by the class 'LogWriter' to read customers data (names) from "db.csv"
-//		 and then use it in the application (to be viewed on claims screen)
-//
+/* 
+ Class 'Customer'
+ Design Pattern: MVC - "Model View-Controller" version
+ Role: Model class for customers data
+		 Used by the class 'LogWriter' to read customers data (names) from "db.csv"
+		 and then use it in the application (to be viewed on claims screen)
+*/
 
 package application;
 

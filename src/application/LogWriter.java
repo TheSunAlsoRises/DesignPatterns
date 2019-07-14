@@ -1,9 +1,10 @@
-// 
-// Class 'LogWriter'
-// Design Pattern: Singelton - "Early Instantiation" version
-// Role: Singelton class to write sales and claims to "logger.txt"
-//		 Also writes/reads to/from DB ('db.csv')
-//
+/* 
+ Class 'LogWriter'
+ Design Pattern: Singelton - "Early Instantiation" version, MVC - "Model View-Controller" version
+ Role: Singelton class to write sales and claims to "logger.txt"
+		 Also writes/reads to/from DB ('db.csv')
+		 Extends the controllers 'ControllerClaimsScreen' and 'ControllerSalesScreen' as they use it to manage I/O.
+*/
 
 package application;
 

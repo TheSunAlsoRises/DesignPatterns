@@ -1,9 +1,9 @@
-// 
-// Class 'SettingsDataFactory'
-// Design Pattern: Factory
-// Role: Factory of 'SettingsData'
-//  	 Creates two types of data that are read from the "settings.xml" file (other is agents names)
-//
+/* 
+ Class 'SettingsDataFactory'
+ Design Pattern: Factory
+ Role: Factory of 'SettingsData'
+  	 Creates two types of data that are read from the "settings.xml" file (other is agents names)
+*/
 
 package application;
 

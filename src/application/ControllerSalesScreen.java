@@ -1,9 +1,11 @@
-// 
-// Class 'ControllerSalesScreen'
-// Design Pattern: MVC - "Model View-Controller" version
-// Role: Combined View-Controller class to view the sales screen and control its background.
-//		 Uses the Factory to get data from the Model classes 'Agents' and 'InsuranceTypes'
-//
+/* 
+ Class 'ControllerSalesScreen'
+ Design Pattern: MVC - "Model View-Controller" version
+ Role: Combined View-Controller class to view the sales screen and control its background.
+		 Uses the Factory to get data from the Model classes 'Agents' and 'InsuranceTypes'
+		 The singelton class 'LogWriter' extends this controller in matters of I/O.
+
+*/
 
 package application;
 

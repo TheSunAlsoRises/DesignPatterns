@@ -1,10 +1,11 @@
-// 
-// Class 'ControllerClaimsScreen'
-// Design Pattern: MVC - "Model View-Controller" version
-// Role: Combined View-Controller class to view the claims screen and control its background.
-//		 Uses the Factory to get data in the form of Model classes 'Agents' and 'InsuranceTypes'.
-//		 Also uses the class 'LogWriter' to get data in the form of Model class 'Customer'
-//
+/* 
+ Class 'ControllerClaimsScreen'
+ Design Pattern: MVC - "Model View-Controller" version
+ Role: Combined View-Controller class to view the claims screen and control its background.
+		 Uses the Factory to get data in the form of Model classes 'Agents' and 'InsuranceTypes'.
+		 Also uses the class 'LogWriter' to get data in the form of Model class 'Customer'.
+		 The singelton class 'LogWriter' extends this controller in matters of I/O.
+*/
 
 package application;
 

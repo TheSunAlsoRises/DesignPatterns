@@ -1,3 +1,9 @@
+/* 
+ Class 'ControllerMainScreen'
+ Design Pattern: MVC - "Model View-Controller" version
+ Role: Combined View-Controller class to view the main screen and control its background.
+*/
+
 package application;
 
 import javafx.event.ActionEvent;
